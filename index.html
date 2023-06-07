@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BasketBAALLLL</title>
+</head>
+<body>
+    <div class="container"> 
+        <div class="scoreboard">
+            <div id="home">
+                <h1>HOME</h1>
+                <p class="pts" id="homepoints">0</p>
+                <button class="HP" onclick="homePointOne()">+1</button>
+                <button class="HP" onclick="homePointTwo()">+2</button>
+                <button class="HP" onclick="homePointThree()">+3</button>
+            </div>
+            <section> | </section>
+            <div id="guest">
+                <h1>GUEST</h1>
+                <p class="pts" id="guestpoints">0</p>
+                <button class="GP" onclick="guestPointOne()">+1</button>
+                <button class="GP" onclick="guestPointTwo()">+2</button>
+                <button class="GP" onclick="guestPointThree()">+3</button>
+
+            </div>
+        </div>    
+    </div>
+    <script src="basketball.js"></script>
+</body>
+</html>

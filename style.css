@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.scoreboard {
+    display:  flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    border: 8px solid white;
+    max-width: 500px;
+    max-height: 300px;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+.HP{
+    margin-right: 5px;
+    background: 0;
+    border: solid 1px white;
+    color: white;
+    margin-bottom: 2vh;
+    padding: 1vh;
+}
+    .GP{
+    margin-left: 5px;
+    background: 0;
+    border: solid 1px white;
+    padding: 1vh;
+    color: white;
+
+}
+
+
+.pts{
+    color: yellow;
+    font-size: xxx-large;
+    background-color: black;
+    text-align: center;
+    border: 2px white solid;
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 60px;
+    width: 120px;
+}
+
+.home{
+    padding-right: 3px;
+
+}
+.guest{
+    padding-left: 4px;
+}
